@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "amd",
+    "sourceMap": true, 
+    "outFile": "lib/index.js",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "types": [
+      // add node as an option
+      "node"
+    ]
+  },
+  "include": ["src/**/*"]
+}
